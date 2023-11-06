@@ -63,7 +63,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Feedback
 
-If you have any feedback, please reach out at cgortizm21@gmail.com
+If you have any comments, please reach out at cgortizm21@gmail.com
 
 ## License
 
