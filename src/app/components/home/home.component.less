@@ -1,0 +1,172 @@
+@jedis-color: #38a007;
+@siths-color: #b81212;
+
+.characters_card {
+  background-color: #fff;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  transform: translateZ(0);
+
+  * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+  }
+
+  img {
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  &:before,
+  &:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    opacity: 0.5;
+    transition: all 0.45s ease;
+  }
+
+  &:before {
+    transform: skew(30deg) translateX(-80%);
+  }
+
+  &:after {
+    transform: skew(-30deg) translateX(-70%);
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+    padding: 25px 40% 25px 20px;
+  }
+
+  & figcaption:before,
+  & figcaption:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    content: '';
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  figcaption:before {
+    transform: skew(30deg) translateX(-100%);
+  }
+
+  figcaption:after {
+    transform: skew(-30deg) translateX(-90%);
+  }
+
+  h3,
+  p,
+  a {
+    margin: 0;
+    opacity: 0;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    h3 {
+      transform: translateY(0);
+      opacity: 0.9;
+      transition-delay: 0.2s;
+    }
+
+    p {
+      transform: translateY(0);
+      opacity: 0.9;
+      transition-delay: 0.2s;
+    }
+
+    a {
+      transform: translateY(0);
+      opacity: 0.9;
+      transition-delay: 0.2s;
+    }
+  }
+
+  &:hover {
+    before {
+      transform: skew(30deg) translateX(-20%);
+      transition-delay: 0.05s;
+    }
+  }
+
+  &:hover:after {
+    transform: skew(-30deg) translateX(-10%);
+    transition-delay: 0.05s;
+  }
+
+  &:hover {
+    figcaption:before {
+      transform: skew(30deg) translateX(-40%);
+      transition-delay: 0.1s;
+    }
+  }
+
+  &:hover {
+    figcaption:after {
+      transform: skew(-30deg) translateX(-30%);
+      transition-delay: 0.1s;
+    }
+  }
+}
+
+.jedis_color:before,
+.jedis_color:after {
+  background-color: @jedis-color;
+}
+
+.jedis_color figcaption:before,
+.jedis_color figcaption:after {
+  background-color: @jedis-color;
+}
+
+.siths_color:before,
+.siths_color:after {
+  background-color: @siths-color;
+}
+
+.siths_color figcaption:before,
+.siths_color figcaption:after {
+  background-color: @siths-color;
+}
+
+.viewport_height {
+  display: flex;
+  flex-direction: column;
+  min-height: 76vh;
+}
