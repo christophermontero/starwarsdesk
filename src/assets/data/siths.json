@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "sheev palpatine",
+    "quote": "I am the Senate.",
+    "specie": "human",
+    "gender": "male",
+    "height": 173,
+    "homeworld": "naboo",
+    "img": "assets/img/siths/palpatine.webp",
+    "description": "Sheev Palpatine, also known as Darth Sidious, was a Force-sensitive human who served as the last Chancellor of the Galactic Republic and the first Emperor of the Galactic Empire."
+  },
+  {
+    "id": 2,
+    "name": "darth vader",
+    "quote": "I find your lack of faith disturbing.",
+    "specie": "human",
+    "gender": "male",
+    "height": 203,
+    "homeworld": "tatooine",
+    "img": "assets/img/siths/vader.jpeg",
+    "description": "Christened \"Darth Vader\" by his new master Darth Sidious, the newly created Sith Lord assaulted the Jedi Temple on Coruscant, killing fully trained Jedi and young rookies alike."
+  },
+  {
+    "id": 3,
+    "name": "darth maul",
+    "quote": "I was the apprentice of the most powerful being in the entire galaxy. My destiny was to be... much more.",
+    "specie": "dathomirian",
+    "gender": "male",
+    "height": 175,
+    "homeworld": "dathomir",
+    "img": "assets/img/siths/maul.webp",
+    "description": "Maul was a Force-sensitive Dathomirian Zabrak and dark side warrior who served as the Sith's apprentice Dark Lord Darth Maul during the final years of the Galactic Republic and reigned as a crime lord during the rule of the Galactic Empire."
+  },
+  {
+    "id": 4,
+    "name": "dooku",
+    "quote": "Very soon, you will stop denying the truth of so many things. And you will understand that I am not a traitor, but a visionary!",
+    "specie": "human",
+    "gender": "male",
+    "height": 193,
+    "homeworld": "serenno",
+    "img": "assets/img/siths/dooku.jpg",
+    "description": "Dooku, a Force-sensitive human male, was a Sith Lord who led the Confederacy of Independent Systems as Head of State during the Clone Wars. Although he was once a Jedi Master, Dooku left the Jedi Order and the Galactic Republic after becoming disillusioned with corruption in the government."
+  },
+  {
+    "id": 5,
+    "name": "asajj ventress",
+    "quote": "What kind of life will that be, Quinlan? A life in which we will be slaves to our hatred? Of our rage? That's what the dark side did to me.",
+    "specie": "dathomirian",
+    "gender": "female",
+    "height": 170,
+    "homeworld": "dathomir",
+    "img": "assets/img/siths/asajj.jpg",
+    "description": "Asajj Ventress was a Dathomirian who, at various points in her life, was a slave, a Padawan, a Sith apprentice, a Nightsister, and a bounty hunter. During the final decades of the Galactic Republic, Ventress was born into the Force-sensitive clan of the Nightsisters led by Mother Talzin on the homeworld Dathomir."
+  },
+  {
+    "id": 6,
+    "name": "barriss offee",
+    "quote": "I think trust is overrated. The only thing the Jedi Council believes in is violence!",
+    "specie": "mirialan",
+    "gender": "female",
+    "height": 166,
+    "homeworld": "mirial",
+    "img": "assets/img/siths/barriss.jpg",
+    "description": "Barriss Offee was a Mirialan who trained as a Jedi Padawan during the Clone Wars. She carried a blue lightsaber and trained under Jedi Master Luminara Unduli."
+  },
+  {
+    "id": 7,
+    "name": "kylo ren",
+    "specie": "human",
+    "gender": "male",
+    "height": 189,
+    "homeworld": "chandrila",
+    "img": "assets/img/siths/ren.jpg",
+    "description": "Kylo Ren was a Force-sensitive human male who, after falling to the dark side of the Force, eventually gave up his alter ego Kylo Ren and was redeemed. As master of the Knights of Ren, he conquered much of the galaxy during his reign as Supreme Leader of the First Order."
+  },
+  {
+    "id": 8,
+    "name": "darth revan",
+    "specie": "human",
+    "gender": "male",
+    "height": 189,
+    "homeworld": "coruscant",
+    "img": "assets/img/siths/revan.jpg",
+    "description": "Revan was a former Sith Lord, who was the namesake of the \"Revan Legion\", the 3rd Legion of Sith soldiers of Darth Sidious's Sith Eternal. Because the history of the Sith was hidden from the rest of the galaxy, only the cultists of the Sith Eternal knew the meaning of the name."
+  },
+  {
+    "id": 9,
+    "name": "qordis",
+    "specie": "human",
+    "gender": "male",
+    "height": 200,
+    "homeworld": "coruscant",
+    "img": "assets/img/siths/qordis.webp",
+    "description": "Qordis, along with Kopeci and Kas'im, was one of the strongest Sith Lords who vowed to fight with Kaan when he formed the Brotherhood of Darkness. It was believed that he had been training Sirak for no less than twenty years."
+  },
+  {
+    "id": 10,
+    "name": "valkorion",
+    "quote": "I found Valkorion centuries ago. He was a great warrior. A champion of ancient Zakuul. It was only natural I hollow him out to use as my vessel.",
+    "specie": "human",
+    "gender": "male",
+    "height": 189,
+    "homeworld": "zakuul",
+    "img": "assets/img/siths/valkorion.webp",
+    "description": "Valkorion was a male Human warrior from the planet Zakuul who lived centuries before the Galactic War. When the Force entity known as Vitiate arrived on Zakuul, he chose Valkorion to become his new host body, and took possession of the man's physical form."
+  }
+]

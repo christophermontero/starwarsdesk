@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "death star",
+    "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
+    "description": "A Death Star was a gargantuan space station armed with a planet-destroying superlaser powered by kyber crystals.",
+    "img": "assets/img/spacecrafts/death-star.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "millenium falcon",
+    "manufacturer": "Corellian Engineering Corporation",
+    "description": "The Millennium Falcon, originally known as YT-1300 492727ZED, was a modified YT-1300 light freighter with a storied history stretching back to the decades before the Clone Wars and the rise of the Galactic Empire.",
+    "img": "assets/img/spacecrafts/falcon.jpg"
+  },
+  {
+    "id": 3,
+    "name": "slave I",
+    "manufacturer": "Kuat Systems Engineering",
+    "description": "Slave I was a modified Firespray-31-class patrol and attack craft used by the infamous bounty hunter Jango Fett before the Clone Wars and later his unaltered cloned son Boba Fett just prior to the Fall of the Republic and during the reign of the Galactic Empire.",
+    "img": "assets/img/spacecrafts/slave1.webp"
+  },
+  {
+    "id": 4,
+    "name": "dooku's solar sailer",
+    "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+    "description": "The Punworcca 116-class interstellar sloop, also known as the Solar Sailer, was a starship designed and built by the Huppla Pasa Tisc Shipwrights Collective on the planet Geonosis.",
+    "img": "assets/img/spacecrafts/sailer.webp"
+  },
+  {
+    "id": 5,
+    "name": "hammerhead corvette",
+    "manufacturer": "Giju General",
+    "description": "The Hammerhead corvette was a type of corvette that measured 315 meters in length. It was manufactured by Giju General and was used by the Republic Navy during the Clone Wars and the Galactic Empire during the Galactic Civil War.",
+    "img": "assets/img/spacecrafts/hammerhead.webp"
+  },
+  {
+    "id": 6,
+    "name": "razor crest",
+    "manufacturer": "Kuat Systems Engineering",
+    "description": "The Razor Crest was a gunship used by the Mandalorian bounty hunter Din Djarin. It was manufactured by Kuat Systems Engineering, the same company that produced the Delta-7B Aethersprite-class light interceptor flown by Jedi Knight Anakin Skywalker during the Clone Wars.",
+    "img": "assets/img/spacecrafts/razor.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "stinger mantis",
+    "manufacturer": "Corellian Engineering Corporation",
+    "description": "The Stinger Mantis was a type of light freighter manufactured by the Corellian Engineering Corporation that was used by the Jedi Order during the Clone Wars.",
+    "img": "assets/img/spacecrafts/stinger.webp"
+  },
+  {
+    "id": 8,
+    "name": "malevolence",
+    "manufacturer": "Free Dac Volunteers Engineering Corps",
+    "description": "The Malevolence was a Subjugator-class heavy cruiser that served as the flagship of General Grievous during the Clone Wars. It was equipped with two enormous ion cannons that could disable entire fleets of ships.",
+    "img": "assets/img/spacecrafts/malevolence.jpg"
+  },
+  {
+    "id": 9,
+    "name": "outrider",
+    "manufacturer": "Corellian Engineering Corporation",
+    "description": "The Outrider was a modified YT-2400 light freighter that was owned and operated by the smuggler Dash Rendar during the reign of the Galactic Empire.",
+    "img": "assets/img/spacecrafts/outrider.webp"
+  },
+  {
+    "id": 10,
+    "name": "imperial freighter",
+    "manufacturer": "Sienar Fleet Systems",
+    "description": "The Imperial freighter was a type of freighter used by the Galactic Empire during the reign of the New Republic. One such freighter was used by the Imperial remnant to transport the Child to Nevarro.",
+    "img": "assets/img/spacecrafts/gozanti-cruiser.webp"
+  },
+  {
+    "id": 11,
+    "name": "ghost",
+    "manufacturer": "Corellian Engineering Corporation",
+    "description": "The Ghost was a modified VCX-100 light freighter owned by the Twi'lek Hera Syndulla that was used by the Spectres rebel cell during the Age of the Empire.",
+    "img": "assets/img/spacecrafts/ghost.jpg"
+  },
+  {
+    "id": 12,
+    "name": "theta class shuttle",
+    "manufacturer": "Cygnus Spaceworks",
+    "description": "The Theta-class T-2c shuttle was a multi-purpose transport used by the Galactic Empire. It was manufactured by Cygnus Spaceworks and was designed for a crew of six, including a pilot, co-pilot, navigator, communications officer, gunner, and an engineer.",
+    "img": "assets/img/spacecrafts/theta.jpg"
+  }
+]

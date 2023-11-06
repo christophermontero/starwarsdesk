@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "name": "anakin skywalker",
+    "quote": "This is where the fun begins.",
+    "specie": "human",
+    "gender": "male",
+    "weight": 84,
+    "height": 188,
+    "homeworld": "tatooine",
+    "img": "assets/img/jedis/anakin.webp",
+    "description": "Anakin Skywalker, a Force-sensitive human male, was a Jedi Knight of the Galactic Republic and the Chosen One of the Force. During the Clone Wars, his achievements as a commander on the battlefield earned him the nickname the Fearless Hero."
+  },
+  {
+    "id": 2,
+    "name": "obi wan kenobi",
+    "quote": "I have the high ground.",
+    "specie": "human",
+    "gender": "male",
+    "weight": 77,
+    "height": 182,
+    "homeworld": "stewjon",
+    "img": "assets/img/jedis/obi.webp",
+    "description": "Obi-Wan Kenobi, later known as Ben Kenobi during his exile, was a legendary Jedi Master who played a significant role in the fate of the galaxy during the waning days of the Galactic Republic."
+  },
+  {
+    "id": 3,
+    "name": "ahsoka tano",
+    "quote": "Sometimes even the right reasons have the wrong consequences.",
+    "specie": "togruta",
+    "gender": "female",
+    "weight": 88,
+    "height": 160,
+    "homeworld": "shili",
+    "img": "assets/img/jedis/ahsoka.jpeg",
+    "description": "Ahsoka Tano, nicknamed Snips by her master and known as Ashla after the Clone Wars, was a former Jedi Padawan who, after the conflict, helped establish a network of various rebel cells against the Galactic Empire."
+  },
+  {
+    "id": 4,
+    "name": "yoda",
+    "quote": "Difficult to see. Always in motion is the future.",
+    "specie": "yoda's species",
+    "gender": "male",
+    "weight": 17,
+    "height": 66,
+    "homeworld": "dagobah",
+    "img": "assets/img/jedis/yoda.jpg",
+    "description": "Yoda was a male member of a mysterious species. He was a revered Jedi Master who served as Grand Master of the Jedi Order in the final days of the Galactic Republic. He was famous within the Order for his wisdom, Force powers, and lightsaber combat, and lived for nearly 900 years."
+  },
+  {
+    "id": 5,
+    "name": "ki adi mundi",
+    "quote": "There is no such thing as luck.",
+    "specie": "cerean",
+    "gender": "male",
+    "weight": 82,
+    "height": 198,
+    "homeworld": "cerea",
+    "img": "assets/img/jedis/mundi.webp",
+    "description": "Ki-Adi-Mundi, a Force-sensitive Cerean, was a Jedi Master and member of the Jedi High Council during the final years of the Galactic Republic. During the Clone Wars, Mundi became a Jedi General in the Grand Army of the Republic."
+  },
+  {
+    "id": 6,
+    "name": "qui gon jinn",
+    "quote": "Perhaps I killed a Jedi and took it from him.",
+    "specie": "human",
+    "gender": "male",
+    "weight": 89,
+    "height": 193,
+    "homeworld": "coruscant",
+    "img": "assets/img/jedis/qui.jpeg",
+    "description": "Qui-Gon Jinn, a Force-sensitive human male, was a venerable and rebellious Jedi Master who lived during the final years of the Republic era. He was a wise and respected member of the Jedi Order, and was offered a seat on the Jedi Council which he decided to decline to follow his own path."
+  },
+  {
+    "id": 7,
+    "name": "luke skywalker",
+    "quote": "I have a very bad feeling about this.",
+    "specie": "human",
+    "gender": "male",
+    "weight": 77,
+    "height": 172,
+    "homeworld": "tatooine",
+    "img": "assets/img/jedis/luke.webp",
+    "description": "Luke Skywalker was a Force-sensitive human and Jedi Master who, along with his twin sister, Princess Leia Organa, fought against the government of the Galactic Empire during the Galactic Civil War. The son of Jedi Knight Anakin Skywalker and Senator Padmé Amidala of Naboo, Luke was born shortly after the end of the Clone Wars in 19 BBY."
+  },
+  {
+    "id": 8,
+    "name": "mace windu",
+    "quote": "Remember that war is like a fire across the galaxy.",
+    "specie": "human",
+    "gender": "male",
+    "weight": 84,
+    "height": 188,
+    "homeworld": "haruun kal",
+    "img": "assets/img/jedis/windu.jpg",
+    "description": "Mace Windu was a human Jedi Master and member of the Jedi High Council during the final days of the Galactic Republic. Born on the planet Haruun Kal, Windu was trained in the ways of the Force due to his strong connection to it."
+  },
+  {
+    "id": 9,
+    "name": "plo koon",
+    "quote": "Not to me.",
+    "specie": "kel dor",
+    "gender": "male",
+    "height": 188,
+    "homeworld": "dorin",
+    "img": "assets/img/jedis/koon.webp",
+    "description": "Plo Koon was a Kel Dor Jedi Master who served as a member of the Jedi High Council during the final years of the Galactic Republic. He frequently undertook dangerous missions. He was the Jedi who found Ahsoka Tano, and from that moment on, they shared a special bond."
+  },
+  {
+    "id": 10,
+    "name": "adi gallia",
+    "specie": "tholothian",
+    "gender": "female",
+    "height": 174,
+    "homeworld": "coruscant",
+    "img": "assets/img/jedis/gallia.webp",
+    "description": "Adi Gallia, a Force-sensitive Tholothian, was a Jedi Master and member of the Jedi High Council during the final years of the Galactic Republic. During the Clone Wars, Gallia served as a Jedi General in the Grand Army of the Republic and fought in numerous battles throughout the conflict."
+  },
+  {
+    "id": 11,
+    "name": "yarael poof",
+    "specie": "quermian",
+    "gender": "male",
+    "height": 264,
+    "homeworld": "quermia",
+    "img": "assets/img/jedis/yarael.jpg",
+    "description": "Yarael Poof was a Quermian Jedi Master who served on the Jedi High Council during the High Republic Era until the final years of the Galactic Republic. He was an expert practitioner of Jedi mind tricks and illusions and a skilled diplomat and teacher."
+  },
+  {
+    "id": 12,
+    "name": "eeth koth",
+    "specie": "zabrak",
+    "gender": "male",
+    "height": 171,
+    "weight": 80,
+    "homeworld": "nar shaddaa",
+    "img": "assets/img/jedis/eeth.webp",
+    "description": "Eeth Koth, a Force-sensitive Iridonian Zabrak, was a Jedi Master who served on the Jedi High Council during the final years of the Galactic Republic. Like the other Jedi, he fought against the Confederacy of Independent Systems as a Jedi General of the Grand Army of the Republic during the Clone Wars."
+  },
+  {
+    "id": 13,
+    "name": "deepa billaba",
+    "specie": "human",
+    "gender": "female",
+    "height": 168,
+    "homeworld": "coruscant",
+    "img": "assets/img/jedis/deepa.webp",
+    "description": "Depa Billaba was a Chalactan Jedi Master who served on the Jedi High Council during the final years of the Galactic Republic. She was the Master of Padawan Caleb Dume, who later became the Jedi Knight Kanan Jarrus."
+  },
+  {
+    "id": 14,
+    "name": "kit fisto",
+    "specie": "nautolan",
+    "gender": "male",
+    "height": 196,
+    "homeworld": "glee anselm",
+    "img": "assets/img/jedis/fisto.webp",
+    "description": "Kit Fisto was a Nautolan Jedi Master during the final years of the Galactic Republic. He was among the Jedi who fought in the First Battle of Geonosis, and was one of the few survivors among the 200 Jedi who traveled to the planet."
+  },
+  {
+    "id": 15,
+    "name": "luminara undull",
+    "specie": "mirialan",
+    "gender": "female",
+    "height": 176,
+    "homeworld": "mirial",
+    "img": "assets/img/jedis/luminara.webp",
+    "description": "Luminara Unduli was a Force-sensitive Mirialan Jedi Master during the final days of the Jedi Order. She commanded the 41st Elite Corps of the Grand Army of the Republic, and was the teacher of Padawan Barriss Offee."
+  },
+  {
+    "id": 16,
+    "name": "aayla secura",
+    "specie": "Twi'lek",
+    "gender": "female",
+    "height": 172,
+    "homeworld": "ryloth",
+    "img": "assets/img/jedis/aayla.webp",
+    "description": "Aayla Secura was a Twi'lek Jedi Knight in the final years of the Galactic Republic. She was trained by Quinlan Vos and was a good friend of fellow Jedi Kit Fisto. During the Clone Wars, she served as a Jedi General in the Grand Army of the Republic, as well as a member of the Jedi High Council."
+  }
+]
