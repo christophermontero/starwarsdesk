@@ -18,9 +18,9 @@ import { SpacecraftInfoComponent } from './components/spacecraft-info/spacecraft
     CardsComponent,
     CardModalComponent,
     FooterComponent,
-    routingComponents,
     CharTableComponent,
-    SpacecraftInfoComponent
+    SpacecraftInfoComponent,
+    routingComponents
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
