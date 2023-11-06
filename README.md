@@ -4,7 +4,7 @@
 
 Welcome to the Star Wars Desk GitHub repository! 🌌✨
 
-This project is a labor of love by passionate software engineers who are also die-hard Star Wars fans. Our mission is to bring the galaxy far, far away to your desktop environment in a way that's both fun and functional.
+This project is a labor of love by passionate software engineer who is also die-hard Star Wars fan. My mission is to bring the galaxy far, far away to your desktop environment in a way that's both fun and functional.
 
 # Table of content
 
