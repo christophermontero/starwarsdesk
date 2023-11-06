@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   currentYear: number = new Date().getFullYear();
-  repository: string = '';
+  repository: string = 'https://github.com/christophermontero/starwars-desk';
 }
