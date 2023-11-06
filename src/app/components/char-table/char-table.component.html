@@ -1,1 +1,20 @@
-<p>char-table works!</p>
+<div class="table-responsive">
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th class="text-warning fw-bold text-center fs-5">Specie</th>
+        <th class="text-warning fw-bold text-center fs-5">Gender</th>
+        <th class="text-warning fw-bold text-center fs-5">Height</th>
+        <th class="text-warning fw-bold text-center fs-5">Homeworld</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-center">{{char.specie | titlecase}}</td>
+        <td class="text-center">{{char.gender | titlecase}}</td>
+        <td class="text-center">{{char.height | heightconversion }}</td>
+        <td class="text-center">{{char.homeworld | titlecase}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

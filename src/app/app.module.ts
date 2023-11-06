@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CharTableComponent } from './components/char-table/char-table.component';
 import { SpacecraftInfoComponent } from './components/spacecraft-info/spacecraft-info.component';
+import { HeightConversionPipe } from './pipes/height-conversion.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SpacecraftInfoComponent } from './components/spacecraft-info/spacecraft
     FooterComponent,
     CharTableComponent,
     SpacecraftInfoComponent,
-    routingComponents
+    routingComponents,
+    HeightConversionPipe
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
