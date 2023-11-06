@@ -23,9 +23,11 @@ This project is a labor of love by passionate software engineers who are also di
 
 ## Screenshots
 
+![Star Wars Screenshot](./src/assets/starwars.png)
+
 ## Demo
 
-Link to demo []()
+Link to demo [https://starwarsdesk.netlify.app/](https://starwarsdesk.netlify.app/)
 
 ## Tech Stack
 
