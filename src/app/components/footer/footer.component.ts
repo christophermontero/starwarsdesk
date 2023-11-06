@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.less']
 })
 export class FooterComponent {
-
+  currentYear: number = new Date().getFullYear();
+  repository: string = '';
 }
