@@ -17,7 +17,7 @@ This project is a labor of love by passionate software engineers who are also di
     - [Code scaffolding](#code-scaffolding)
     - [Build](#build)
     - [Further help](#further-help)
-  - [Feedback](#feedback)
+  - [Comments](#comments)
   - [License](#license)
   - [Authors](#authors)
 
@@ -61,7 +61,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Feedback
+## Comments
 
 If you have any comments, please reach out at cgortizm21@gmail.com
 
