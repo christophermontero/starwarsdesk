@@ -26,12 +26,12 @@ export class CardsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    if (this.activatedRoute.snapshot.url[0].path === 'jedis') {
+    if (this.activatedRoute.snapshot.url[0].path === 'jedi') {
       this.jediService.getJedis().subscribe((jedis: ICharacter[]) => {
         this.cards = jedis;
         this.cardsLength = this.cards.length;
       });
-    } else if (this.activatedRoute.snapshot.url[0].path === 'siths') {
+    } else if (this.activatedRoute.snapshot.url[0].path === 'sith') {
       this.sithService.getSiths().subscribe((siths: ICharacter[]) => {
         this.cards = siths;
         this.cardsLength = this.cards.length;
