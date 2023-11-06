@@ -1,0 +1,27 @@
+<nav class="mb-3" aria-label="Page navigation">
+  <ul class="pagination justify-content-center">
+    <li class="page-item me-2" [class.disabled]="currentPage === 1">
+      <a class="page-link px-2" (click)="goToStart()" aria-label="Beginning">
+        <span aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+      </a>
+    </li>
+    <li class="page-item" [class.disabled]="currentPage === 1">
+      <a class="page-link px-2" (click)="goToPage(currentPage - 1)" aria-label="Previous">
+        <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+      </a>
+    </li>
+    <li class="page-item" *ngFor="let page of pages" [class.active]="currentPage === page">
+      <a class="page-link px-2" (click)="goToPage(page)">{{ page }}</a>
+    </li>
+    <li class="page-item" [class.disabled]="currentPage === totalPages">
+      <a class="page-link px-2" (click)="goToPage(currentPage + 1)" aria-label="Next">
+        <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+      </a>
+    </li>
+    <li class="page-item ms-2" [class.disabled]="currentPage === totalPages">
+      <a class="page-link px-2" (click)="goToEnd()" aria-label="Final">
+        <span aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+      </a>
+    </li>
+  </ul>
+</nav>

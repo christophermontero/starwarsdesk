@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards-container.component.less']
 })
 export class CardsContainerComponent {
+  currentPage: number = 1;
+  cardsPerPage: number = 8;
+  cardsLength: number = 0;
 
+  handleCurrPageChanged(currPage: number) {
+    this.currentPage = currPage;
+  }
+
+  handleCardsLengthChanged(cardsLength: number) {
+    this.cardsLength = cardsLength;
+  }
 }
