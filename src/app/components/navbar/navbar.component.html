@@ -1,1 +1,32 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">
+    <img class="ms-2" src="{{brand}}" alt="starwars" width="45" height="45">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-1 me-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="d-lg-flex justify-content-center fa fa-users"></i>
+          Characters
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" routerLink="/jedis" (click)="closeNavbar()"><i
+                class="fa fa-user-circle me-1"></i>Jedis</a></li>
+          <li><a class="dropdown-item" routerLink="/siths" (click)="closeNavbar()"><i
+                class="fa fa-user-circle-o me-1"></i>Siths</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/spacecrafts" (click)="closeNavbar()">
+          <i class="d-lg-flex justify-content-center fa fa-fighter-jet jus"></i>
+          Spacecrafts
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
