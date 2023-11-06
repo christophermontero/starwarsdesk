@@ -1,1 +1,19 @@
-<p>cards works!</p>
+<div class="wrapper">
+  <div class="card_container">
+    <article *ngFor="let card of cards.slice(startIndex, endIndex)" class="card_article">
+      <img src="{{card.img}}" alt="image" class="card_img">
+      <div class="card_data">
+        <h2 class="card_title">{{card.name | titlecase}}</h2>
+        <span *ngIf="card.quote; else noQuote" class="card_description fst-italic text-muted ps-3">"{{card.quote}}"
+        </span>
+        <ng-template #noQuote>
+          <span class="card_description fw-bold ps-3">{{card.specie | titlecase}}
+          </span>
+        </ng-template>
+        <a href="#" class="card_button" data-bs-toggle="modal" [attr.data-bs-target]="'#modal' + card.id">Read
+          more...</a>
+      </div>
+      <!-- <app-card-modal [card]="card"></app-card-modal> -->
+    </article>
+  </div>
+</div>

@@ -1,0 +1,209 @@
+// Define variables
+@first-color: hsl(82, 60%, 28%);
+@title-color: hsl(0, 0%, 15%);
+@text-color: hsl(0, 0%, 35%);
+@body-color: hsl(0, 0%, 95%);
+@container-color: hsl(0, 0%, 100%);
+@body-font: 'Poppins', sans-serif;
+@h2-font-size: 1.25rem;
+@small-font-size: 0.813rem;
+
+// Responsive typography
+@media screen and (min-width: 1120px) {
+  @h2-font-size: 1.5rem;
+  @small-font-size: 0.875rem;
+}
+
+// Base styles
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: @body-font;
+  background-color: @body-color;
+  color: @text-color;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+// Card styles
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin-inline: 1rem;
+  margin-block: 1.5rem;
+  padding-block: 1rem;
+}
+
+.card_container {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.card_article {
+  position: relative;
+  overflow: hidden;
+}
+
+.card_img {
+  width: 328px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.card_data {
+  width: 280px;
+  background-color: @container-color;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.card_title {
+  font-size: @h2-font-size;
+  font-weight: 500;
+  color: @title-color;
+  margin-bottom: 0.75rem;
+}
+
+.card_description {
+  display: block;
+  font-size: @small-font-size;
+  margin-bottom: 0.25rem;
+}
+
+.card_button {
+  text-decoration: none;
+  font-size: @small-font-size;
+  font-weight: 500;
+  color: @first-color;
+}
+
+.card_button:hover {
+  text-decoration: underline;
+}
+
+// Naming animations in hover
+.card_article:hover .card_data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.card_article:hover {
+  animation: remove-overflow 2s forwards;
+}
+
+.card_article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card_article:not(:hover) .card_data {
+  animation: remove-data 1s forwards;
+}
+
+// Card animation
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
+
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+  50% {
+    overflow: hidden;
+  }
+}
+
+// Breakpoints
+// For small devices
+@media screen and (max-width: 425px) {
+  .wrapper {
+    margin-inline: 1rem;
+  }
+  .card_container {
+    row-gap: 2.5rem;
+  }
+  .card_img {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+  .card_data {
+    width: 250px;
+    padding: 1rem;
+  }
+}
+
+// For medium devices
+@media screen and (min-width: 768px) {
+  .card_container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 2.5rem;
+  }
+}
+
+// For large devices
+@media screen and (min-width: 1120px) {
+  .wrapper {
+    height: 100%;
+  }
+  .card_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .card_img {
+    width: 348px;
+  }
+  .card_data {
+    width: 316px;
+    padding-inline: 2.5rem;
+  }
+}
+
+.viewport_height {
+  display: flex;
+  flex-direction: column;
+  min-height: 72vh;
+}
