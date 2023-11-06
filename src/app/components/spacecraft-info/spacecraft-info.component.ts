@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ISpacecraft } from 'src/app/interfaces/spacecraft';
 
 @Component({
   selector: 'app-spacecraft-info',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./spacecraft-info.component.less']
 })
 export class SpacecraftInfoComponent {
-
+  @Input() spacecraft: ISpacecraft = {} as ISpacecraft;
 }

@@ -10,10 +10,10 @@
           <img src="{{card.img}}" alt="{{card.name}}" class="img-fluid equal-image mb-4" />
         </div>
         <div *ngIf="!isSpacecraft; else spacecraft">
-          <!-- <app-char-table [char]="card"></app-char-table> -->
+          <app-char-table [char]="card"></app-char-table>
         </div>
         <ng-template #spacecraft>
-          <!-- <app-spacecraft-table [spacecraft]="card"></app-spacecraft-table> -->
+          <app-spacecraft-info [spacecraft]="card"></app-spacecraft-info>
         </ng-template>
         <h5 class="mt-3 ps-2">Description</h5>
         <p class="ps-2 lead">{{card.description}}</p>
